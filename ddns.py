@@ -2,7 +2,7 @@
 import requests
 ipUrl='http://checkip.dyndns.com/'
 url='YourUpdateURL'
-# See DynDNS v2 by dyndns.org
+# See DynDNS v2 protocol by dyndns.org
 resp=requests.get(ipUrl).text
 resp=resp.split(':')
 resp=resp[1]
